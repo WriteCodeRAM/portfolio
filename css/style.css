@@ -1,3 +1,6 @@
+body {
+  font-family: "Roboto Mono", monospace, sans-serif;
+}
 section {
   height: 500px;
   background-color: white;
@@ -31,4 +34,31 @@ ul {
 
 li {
   text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.hero-text {
+  margin-left: 80px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: coral;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-top: 20px;
 }
