@@ -2,7 +2,6 @@ body {
   font-family: "Roboto Mono", monospace, sans-serif;
 }
 section {
-  height: 500px;
   background-color: white;
   border: solid black 1px;
 }
@@ -48,6 +47,10 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 p {
   margin: 0;
   font-weight: 400;
@@ -91,4 +94,31 @@ p {
 
 .social {
   margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.main-pic {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.pic-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
 }
