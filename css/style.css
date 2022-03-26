@@ -8,10 +8,17 @@ section {
 }
 
 .hero {
-  background-color: #13294b;
+  background-color: #0a182c;
   height: 100vh;
   font-size: 40px;
   color: white;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
@@ -49,11 +56,12 @@ p {
 
 .hero-text {
   margin-left: 80px;
+  margin-bottom: 200px;
 }
 
 .button {
   width: 200px;
-  height: 55px;
+  height: 53px;
   border-radius: 30px;
   background-color: coral;
   text-align: center;
@@ -61,4 +69,26 @@ p {
   font-size: 30px;
   padding-top: 5px;
   margin-top: 20px;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button:active {
+  background-color: darkgray;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+  margin: 20px;
+}
+
+.social {
+  margin: 20px;
 }
