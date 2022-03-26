@@ -1,9 +1,9 @@
 body {
   font-family: "Roboto Mono", monospace, sans-serif;
 }
+
 section {
   background-color: white;
-  border: solid black 1px;
 }
 
 .hero {
@@ -57,6 +57,11 @@ p {
   font-size: 30px;
 }
 
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
 .hero-text {
   margin-left: 80px;
   margin-bottom: 200px;
@@ -102,6 +107,16 @@ p {
   padding: 80px;
 }
 
+.subsection-alt {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.subtext {
+}
+
 .main-pic {
   width: 300px;
   border-radius: 150px;
@@ -115,10 +130,28 @@ p {
 .project-card {
   width: 300px;
   height: 500px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 20px #0a182c;
+  margin: 10px;
 }
 
 .project-container {
   display: flex;
   justify-content: space-around;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 150px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #0a182c;
 }
