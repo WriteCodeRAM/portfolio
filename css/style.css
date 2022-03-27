@@ -23,6 +23,7 @@ section {
 footer {
   height: 500px;
   background-color: black;
+  color: white;
 }
 
 nav {
@@ -154,4 +155,25 @@ hr {
 .project-link {
   text-decoration: none;
   color: #0a182c;
+}
+
+.typing {
+  margin-left: 10px;
+  color: coral;
+}
+
+.typing::after {
+  content: "";
+  border-left: 2px solid white;
+  margin-left: 5px;
+  animation: blink 0.8s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
