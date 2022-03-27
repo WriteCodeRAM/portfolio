@@ -1,7 +1,16 @@
+const hamburgerBtn = document.getElementById("hamburger");
+const navList = document.getElementById("nav-list");
+
+function toggleButton() {
+  navList.classList.toggle("show");
+}
+
+hamburgerBtn.addEventListener("click", toggleButton);
+
 /*============== typing animation */
 const typingClass = document.querySelector(".typing");
 
-const words = ["Web Developer", "Computer Science Student", "Hungry"];
+const words = ["Web Developer", "Computer Science Student", "is hungry..."];
 
 let count = 0;
 let letterCount = 0;
@@ -17,7 +26,7 @@ function type() {
     letterCount = 0;
     count++;
   }
-  setTimeout(type, 400);
+  setTimeout(type, 250);
 }
 
 type();

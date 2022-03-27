@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 body {
   font-family: "Roboto Mono", monospace, sans-serif;
 }
@@ -21,9 +24,10 @@ section {
 }
 
 footer {
-  height: 500px;
+  padding: 80px;
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 nav {
@@ -141,6 +145,13 @@ p {
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .project-image {
   margin-top: 25px;
   width: 250px;
@@ -175,5 +186,48 @@ hr {
   }
   100% {
     opacity: 1;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+.hamburger:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  ul {
+    display: none;
+    background-color: #1b314e;
+    margin: 0px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #1b314e;
+  }
+  .logo {
+    display: none;
+  }
+  ul.show {
+    display: flex;
+    justify-content: space-between;
   }
 }
