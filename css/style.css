@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
 body {
   font-family: "Roboto Mono", monospace, sans-serif;
