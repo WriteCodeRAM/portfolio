@@ -120,9 +120,6 @@ p {
   padding: 80px;
 }
 
-.subtext {
-}
-
 .main-pic {
   width: 300px;
   border-radius: 150px;
@@ -231,4 +228,11 @@ a {
     display: flex;
     justify-content: space-between;
   }
+}
+nav a:hover {
+  color: coral;
+}
+
+div a:hover {
+  color: coral;
 }
