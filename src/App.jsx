@@ -1,9 +1,11 @@
 import React, { useEffect } from 'react';
 import p5 from 'p5';
 import './App.css';
+import Nav from './components/Nav';
+import Description from './components/Description';
 
 const App = () => {
-  
+
   useEffect(() => {
     
     const background = new p5(p => {
@@ -26,7 +28,18 @@ const App = () => {
     };
   }, []);
 
-  return <div className="wallpaper"></div>;
+  return(
+
+  
+  <>
+    <div className="container">
+
+    <Nav/> 
+    <Description/> 
+
+    </div>
+  </>
+  )
 };
 
 export default App;
