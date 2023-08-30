@@ -3,6 +3,7 @@ import p5 from 'p5';
 import './App.css';
 import Nav from './components/Nav';
 import Description from './components/Description';
+import Footer from './components/Footer';
 
 const App = () => {
 
@@ -37,6 +38,7 @@ const App = () => {
     <Nav/> 
     <Description/> 
 
+    <Footer/> 
     </div>
   </>
   )
