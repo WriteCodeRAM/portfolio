@@ -25,10 +25,11 @@ container{
 
 nav{
 text-align: center;
+margin: 4px;
 }
 
 h1{
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 .description-container{
@@ -40,6 +41,10 @@ h1{
 span{
   text-decoration: underline;
   /* font-weight: bold; */
+}
+
+span:hover{
+  cursor: pointer;
 }
 
 .react{ 
@@ -59,6 +64,7 @@ color: #FFD343;
 p{
   font-size: 24px;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 footer{
@@ -78,6 +84,27 @@ footer{
   border-radius: 50px;
   background: #fff;
 }
+
+footer img:hover {
+  /* width: 30px; */
+  /* height: 30px; */
+  -webkit-animation:spin .5s linear ;
+  -moz-animation:spin .5s linear ;
+  animation:spin .5s linear ;
+}
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
+
 
 .socials-container{
   display: flex;
