@@ -1,8 +1,10 @@
 import React from 'react'
-import { useState } from 'react'
 import { TypeAnimation } from 'react-type-animation';
- 
+
+
+
 const Nav = () => {
+
   return (
     <nav>
 
@@ -10,23 +12,38 @@ const Nav = () => {
       sequence={[
           "{", 
           100, // 1000 = 1s  
-          '{R', 
+          '{"R', 
           100, 
-          '{RA',
+          '{ "RA',
           100, 
-          '{RAN', 
+          '{ "RAN', 
           100, 
-          '{RAND', 
+          '{ "RAND', 
           100, 
-          '{RANDA',
+          '{ "RANDA',
           100, 
-          '{RANDAL}',
+          '{ "RANDAL"',
           () => {
               console.log('Sequence completed');
             },
         ]}
-        wrapper="span"
+        wrapper="h1"
         cursor={true}
+        // repeat={Infinity}
+        style={{ fontSize: '2em', display: 'inline-block' }}
+        />
+
+<TypeAnimation
+      sequence={[
+          "}", 
+          100, // 1000 = 1s  
+          ,
+          () => {
+              console.log('Sequence completed');
+            },
+        ]}
+        wrapper="h1"
+        cursor={false}
         // repeat={Infinity}
         style={{ fontSize: '2em', display: 'inline-block' }}
         />

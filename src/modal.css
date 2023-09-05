@@ -3,4 +3,74 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
+   
+}
+
+
+
+.modal{
+    background-color: white;
+    height: 60vh;
+    width: 60vw;
+
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    
+
+}
+
+.modal-header{
+    /* margin-bottom: 20; */
+    padding: 12px;
+}
+
+.modal h2{
+    text-align: center;
+}
+
+.modal-projects{
+    display: flex;
+    gap: 4em;
+}
+
+.react{
+    color: #61DBFB;
+
+    
+}
+
+.react-border{
+    border: solid 2px #61DBFB;
+    border-radius: 8px;
+}
+
+.node-border{
+    border: solid 2px #4A7843; 
+    border-radius: 8px;
+}
+
+.python-border{
+    border: solid 2px #FFD343;
+    border-radius: 8px;
+}
+
+.modal img{
+    width: 150px;
+    height: 150px;
+}
+
+.modal p{
+    color: #000;
+}
+
+.others{
+    color: pink; 
+}
+ 
+.others-border{
+    border: solid 4px pink;
+    border-radius: 8px;
 }
