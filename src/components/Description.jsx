@@ -23,14 +23,24 @@ function Description() {
       img1: '/src/images/rq.png',
       img2: '/src/images/rr.png',
       img3: '/src/images/sg.png',
+      href1: 'https://github.com/WriteCodeRAM/ReelQuotes',
+      href2: 'https://github.com/WriteCodeRAM/ReelRave',
+      href3: 'https://github.com/WriteCodeRAM/SeatGeekDashboard',
+      desc1: 'Full-Stack app made with React and Supabase, allows users to test their movie trivia skills and climb the leaderboard.',
+      desc2: 'Full-Stack app made with React and Supabase, allows users to participate in a movie discussion forum.',
+      desc3: 'Leverages the SeatGeek API, allowing users to view events in their city and filter events based on type/genre..'
     },
     node: {
       title: 'Node',
       color: 'nodeJS',
       border: 'node-border', 
       description: "Node's ability to allow me to use JavaScript on the backend to create quick scripts and servers makes it a no brainer when I am developing web applications.",
-      img1: '',
-      img2: '',
+      img1:'/src/images/tw.png',
+      img2: '/src/images/placeholder.jpeg',
+      href1: '',
+      href2: '',
+      desc1: "Terminal Wordle leverage rapidAPI word endpoint, awarded most aesthetically-pleasing project at Capital One's Tech Mini-Mester.",
+      desc2: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.'
     },
     python: {
       title: 'Python',
@@ -38,7 +48,11 @@ function Description() {
       border: 'python-border', 
       description:  'I am relatively new to Python, with only two noteworthy projects that I have created using it thus far.',
       img1: '/src/images/rc.png',
-      img2: '',
+      img2: '/src/images/bsa.png',
+      href1: 'https://github.com/WriteCodeRAM/ReelCharts',
+      href2: 'https://github.com/WriteCodeRAM/BookStoreAPI',
+      desc1: 'App made using the streamlit framework, group project for Human-Computer Interaction class. Responsible for home page.',
+      desc2: 'Created a RESTful API for a fictitious book store using python and SQL as a group project.'
     },
     others: {
       title: 'Others',
@@ -48,6 +62,12 @@ function Description() {
       img1: '/src/images/ttt.png',
       img2: '/src/images/eas.png',
       img3: '/src/images/kw.png',
+      href1: 'https://writecoderam.github.io/Tic-Tac-Toe/',
+      href2: 'https://writecoderam.github.io/Etch-a-sketch/',
+      href3: 'https://writecoderam.github.io/kindaWordle/',
+      desc1: 'Tic-Tac-Toe made with HTML/CSS/JS, PVP and very bad AI mode.',
+      desc2: 'Etch-a-Sketch app that allows users to draw on a black or white canvas.',
+      desc3: 'Wordle clone that tracks users stats through local storage.'
     },
   };
 
