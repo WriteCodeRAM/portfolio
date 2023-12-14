@@ -9,17 +9,37 @@
 
 
 
-.modal{
+.modal {
     background-color: white;
     height: 60vh;
     width: 60vw;
-
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     gap: 18px;
-    
+    overflow-y: auto; /* Enables vertical scrolling if content overflows */
+}
 
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .modal-container {
+        height: 80vh; /* Increase height to give more space */
+    }
+    .modal {
+        width: 80vw; /* Increase width to utilize more screen space */
+        height: auto; /* Make height automatic to fit content */
+        max-height: 80vh; /* Set a max-height to ensure it doesn't go off screen */
+    }
+    .modal img {
+        width: 100px; /* Decrease image size for smaller screens */
+        height: 100px;
+    }
+    .modal-projects {
+        flex-direction: column; /* Stack projects vertically */
+    }
+    .project-1, .project-2, .project-3 {
+        width: 100%; /* Ensure projects use full width */
+    }
 }
 
 .modal-header{
