@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-   
+    margin-bottom: 60px;
 }
 
 
@@ -23,8 +23,9 @@
 /* Add media query for smaller screens */
 @media screen and (max-width: 768px) {
     .modal-container {
-        height: 80vh; /* Increase height to give more space */
-    }
+        height: calc(80vh - 60px); /* Reduce height to account for footer */
+        margin-bottom: 60px; /* Ensure there is space for the footer */
+      }
     .modal {
         width: 80vw; /* Increase width to utilize more screen space */
         height: auto; /* Make height automatic to fit content */
