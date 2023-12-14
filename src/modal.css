@@ -17,29 +17,29 @@
     flex-direction: column;
     align-items: center;
     gap: 18px;
-    overflow-y: auto; /* Enables vertical scrolling if content overflows */
+    overflow-y: auto; 
 }
 
 /* Add media query for smaller screens */
 @media screen and (max-width: 768px) {
     .modal-container {
-        height: calc(80vh - 60px); /* Reduce height to account for footer */
-        margin-bottom: 60px; /* Ensure there is space for the footer */
+        height: calc(80vh - 60px);
+        margin-bottom: 60px;
       }
-    .modal {
-        width: 80vw; /* Increase width to utilize more screen space */
-        height: auto; /* Make height automatic to fit content */
-        max-height: 80vh; /* Set a max-height to ensure it doesn't go off screen */
-    }
+      .modal {
+        width: 70vw; 
+        max-height: 70vh; 
+        overflow-y: auto; /* Ensures content is scrollable */
+      }
     .modal img {
         width: 100px; /* Decrease image size for smaller screens */
         height: 100px;
     }
     .modal-projects {
-        flex-direction: column; /* Stack projects vertically */
+        flex-direction: column; 
     }
     .project-1, .project-2, .project-3 {
-        width: 100%; /* Ensure projects use full width */
+        width: 100%; 
     }
 }
 
