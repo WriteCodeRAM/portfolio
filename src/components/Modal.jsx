@@ -7,7 +7,9 @@ const Modal = ({ repos,  isOpen, closeModal }) => {
 
   useEffect(() => {
     const handleOutsideClick = (e) => {
-      if (isOpen && !e.target.closest('.modal-container')) {
+      console.log(e.target.localName)
+      if (isOpen && !e.target.closest('.modal-container') || e.target.localName == 'span' && isOpen ) {
+
         closeModal();
       }
     };
