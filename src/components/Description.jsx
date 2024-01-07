@@ -55,7 +55,7 @@ function Description() {
       desc1:
         'App made using the streamlit framework, group project for Human-Computer Interaction class. Responsible for home page.',
       desc2:
-        'Created a RESTful API for a fictitious book store using python and SQL as a group project.',
+        'Created a RESTful API for a fictitious book store using Python/Flask and MySQL for a group project.',
     },
     others: {
       title: 'Others',
