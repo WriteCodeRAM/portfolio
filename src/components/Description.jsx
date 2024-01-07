@@ -12,7 +12,7 @@ function Description() {
       color: 'react',
       border: 'react-border',
       description:
-        'React is my preferred frontend library, I have been using it for about a year now and would call myself proficient.',
+        'React is my preferred frontend library, I have been using it for over a year now and would call myself proficient.',
       img1: '/rq.png',
       img2: '/rr.png',
       img3: '/sg.png',
@@ -34,12 +34,13 @@ function Description() {
         "Node's ability to allow me to use JavaScript on the backend to create quick scripts and servers makes it a no brainer when I am developing web applications.",
       img1: '/tw.png',
       img2: '/placeholder.jpeg',
-      href1: '',
-      href2: '',
+      href1:
+        'https://github.com/WriteCodeRAM/terminalWordle/blob/main/project/app.js',
+      href2: 'https://github.com/WriteCodeRAM/GenerateAccessTokens',
       desc1:
         "Terminal Wordle leverage rapidAPI word endpoint, awarded most aesthetically-pleasing project at Capital One's Tech Mini-Mester.",
       desc2:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.',
+        'Script allowing users to regenerate OAuth2 tokens at custom set intervals, streamlining the otherwise manual and repetitive process of obtaining new access tokens.',
     },
     python: {
       title: 'Python',
