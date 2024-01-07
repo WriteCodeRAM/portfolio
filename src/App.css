@@ -171,8 +171,8 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background: rgba(0, 0, 0, 0.8); 
-  padding: 12px;
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 8px;
   z-index: 10;
 }
 
