@@ -47,7 +47,7 @@ function Description() {
       color: 'python',
       border: 'python-border',
       description:
-        'I am relatively new to Python, with only two noteworthy projects that I have created using it thus far.',
+        'Python is my interview language of choice, here are some noteworthy projects that I have created using it thus far.',
       img1: '/rc.png',
       img2: '/bsa.png',
       href1: 'https://github.com/WriteCodeRAM/ReelCharts',
