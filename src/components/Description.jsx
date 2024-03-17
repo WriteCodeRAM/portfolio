@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Modal from './Modal';
 
 function Description() {
   const [activeRepo, setActiveRepo] = useState(null);
   const [graduationCountdown, setGraduationCountdown] = useState('');
   const [modalOpen, setModalOpen] = useState(false);
+  const [hint, setHint] = useState(false);
 
   const repos = {
     react: {
@@ -112,6 +113,7 @@ function Description() {
   const handleSpanClick = (repoName) => {
     setActiveRepo(repos[repoName]);
     setModalOpen(true);
+    setHint(true);
   };
 
   const closeModal = () => {
@@ -140,6 +142,8 @@ function Description() {
         </span>
         .{' '}
       </p>
+      {hint ? null : <p className="hint">(click to view details)</p>}
+
       <p className="graduation">Graduating in: {graduationCountdown}</p>
 
       {activeRepo && (

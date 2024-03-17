@@ -211,3 +211,12 @@ footer img:hover {
   margin-top: 8px;
   justify-content: center;
 }
+
+span:hover{ 
+  color: #ffffff;
+}
+
+.hint{ 
+  color: #949494 ;
+ 
+}
