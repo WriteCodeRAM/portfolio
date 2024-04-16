@@ -78,7 +78,7 @@ function Description() {
   };
 
   //(May 1, 2024)
-  const graduationDate = new Date('2024-05-01T00:00:00Z');
+  const graduationDate = new Date('2024-05-02T00:00:00Z');
 
   useEffect(() => {
     const calculateCountdown = () => {
