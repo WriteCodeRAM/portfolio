@@ -1,65 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
-
-#root{
-  width:100%; 
-  height:100%;
-  position:fixed;
-  background: linear-gradient(45deg, rgba(0,0,0,1) 0, rgba(0,0,0,0.7) 100%);
+#root {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0,
+    rgba(0, 0, 0, 0.7) 100%
+  );
 }
 
 body {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   margin: 0;
   padding: 0;
   height: 100%;
-  min-height: 100vh; 
+  min-height: 100vh;
   color: #fff;
   box-sizing: border-box;
   overflow: hidden;
 }
-
-
 
 nav {
   text-align: center;
   margin: 4px;
 }
 
-h1{
+h1 {
   margin: 12px 0;
 }
 
-h1.index-module_type__E-SaG{
+h1.index-module_type__E-SaG {
   margin: 0;
 }
 
-.description-container{
+.description-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-span{
+span {
   text-decoration: underline;
   /* font-weight: bold; */
 }
 
-span:hover{
+span:hover {
   cursor: pointer;
 }
 
-.react{ 
-  color: #61DBFB;
+.react {
+  color: #61dbfb;
 }
 
-.nodeJS{
- color:  #4A7843; 
+.nodeJS {
+  color: #4a7843;
 }
 
-.python{
-color: #FFD343;
+.python {
+  color: #ffd343;
 }
 
 .glitch-wrap {
@@ -73,7 +74,6 @@ color: #FFD343;
   font-size: 1rem;
   display: inline-block;
 }
-
 
 .glitch:before,
 .glitch:after {
@@ -101,84 +101,78 @@ color: #FFD343;
 }
 
 @keyframes glitch {
-
   3%,
   60% {
-      transform: skew(5deg);
+    transform: skew(5deg);
   }
 
   62% {
-      transform: translate(-10px, 2px) skew(30deg);
+    transform: translate(-10px, 2px) skew(30deg);
   }
 
   64% {
-      transform: translate(6px, -1px) skew(-15deg);
+    transform: translate(6px, -1px) skew(-15deg);
   }
-
 }
 
 @keyframes glitchTop {
-
   1%,
   60% {
-      transform: translate(-2px, 0);
-      visibility: visible;
+    transform: translate(-2px, 0);
+    visibility: visible;
   }
 
   64% {
-      transform: translate(-5px, 1px);
-      visibility: visible;
+    transform: translate(-5px, 1px);
+    visibility: visible;
   }
 
   62% {
-      transform: translate(15px, -1px) skew(-13deg);
-      visibility: visible;
+    transform: translate(15px, -1px) skew(-13deg);
+    visibility: visible;
   }
 }
 
 @keyframes glitchBotom {
-
   1%,
   64% {
-      transform: translate(-2px, 0);
-      visibility: visible;
+    transform: translate(-2px, 0);
+    visibility: visible;
   }
 
   4%,
   60% {
-      transform: translate(-2px, 0);
-      visibility: visible;
+    transform: translate(-2px, 0);
+    visibility: visible;
   }
 
   62% {
-      transform: translate(-22px, 5px) skew(21deg);
-      visibility: visible;
+    transform: translate(-22px, 5px) skew(21deg);
+    visibility: visible;
   }
 }
 
-
-p{
+p {
   font-size: 24px;
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.graduation{
+.graduation {
   margin-top: 8px;
 }
 
 footer {
-  position: absolute; 
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: center;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   padding: 8px;
   z-index: 10;
 }
 
-
-.footer-img{
+.footer-img {
   width: 28px;
   height: 28px;
   border-radius: 50px;
@@ -188,37 +182,39 @@ footer {
 footer img:hover {
   /* width: 30px; */
   /* height: 30px; */
-  -webkit-animation:spin .5s linear ;
-  -moz-animation:spin .5s linear ;
-  animation:spin .5s linear ;
+  -webkit-animation: spin 0.5s linear;
+  -moz-animation: spin 0.5s linear;
+  animation: spin 0.5s linear;
 }
-@-moz-keyframes spin { 
-  100% { -moz-transform: rotate(360deg); } 
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
 }
-@-webkit-keyframes spin { 
-  100% { -webkit-transform: rotate(360deg); } 
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
-@keyframes spin { 
-  100% { 
-      -webkit-transform: rotate(360deg); 
-      transform:rotate(360deg); 
-  } 
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
-
-.socials-container{
+.socials-container {
   display: flex;
   gap: 8px;
   margin-top: 8px;
   justify-content: center;
 }
 
-span:hover{ 
+span:hover {
   color: #ffffff;
   transition: 0.2s ease-in-out;
 }
 
-.hint{ 
-  color: #949494 ;
- 
+.hint {
+  color: #949494;
 }

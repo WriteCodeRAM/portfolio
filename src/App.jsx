@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import p5 from 'p5';
-import './App.css';
+import { useEffect } from "react";
+import p5 from "p5";
+import "./App.css";
 // import './modal.css'
-import Nav from './components/Nav';
-import Description from './components/Description';
-import Footer from './components/Footer';
+import Nav from "./components/Nav";
+import Description from "./components/Description";
+import Footer from "./components/Footer";
 
 const App = () => {
   useEffect(() => {
